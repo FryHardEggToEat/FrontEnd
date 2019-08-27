@@ -19,11 +19,17 @@ class Home extends Component {
                     </ul>
                     <Divider icon="thumbs up outline icon" description="贊助人的使用指南" />
                     <ul class="ui list">
-                        <li>只要點入贊助人頁面</li>
+                        <li>點入贊助者頁面</li>
                         <li>儲入你想要贊助Street Art的金額</li>
                         <li>街頭藝人會依當週個別人氣發給獎金</li>
                     </ul>
                     <Divider icon="gift icon" description="街頭藝人的使用指南" />
+                    <ul class="ui list">
+                        <li>點入街頭藝人頁面</li>
+                        <li>輸入表演資訊</li>
+                        <li>在申請的時間地點表演、系統會自動計算表演人氣</li>
+                        <li>獎金會依表演熱度/總表演熱度發給到你的戶頭</li>
+                    </ul>
                 </div>
             </div>
             

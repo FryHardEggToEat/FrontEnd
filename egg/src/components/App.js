@@ -5,6 +5,8 @@ import { Route } from 'react-router-dom'
 import Menu from './Menu'
 import Footer from './Footer'
 import Home from './pages/Home'
+import SugarDaddy from './pages/SugarDaddy'
+import SugarBaby from './pages/SugarBaby'
 
 import './css/app.css'
 
@@ -15,6 +17,8 @@ class App extends Component {
                 <Menu/>
                 <div class="container Site-content">
                     <Route path="/" exact component={Home} />
+                    <Route path="/sugardaddy" component={SugarDaddy} />
+                    <Route path="/sugarbaby" component={SugarBaby} />
                 </div>
                 <Footer />
             </div>
