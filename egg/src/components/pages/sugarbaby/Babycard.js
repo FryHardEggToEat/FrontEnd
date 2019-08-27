@@ -18,7 +18,12 @@ const BabyCard = props => {
             <div class="extra content">
                 <a>
                 <i class="user icon"></i>
-                    {props.fans} Fans
+                    人氣： {props.fans} 
+                </a>
+                <br/>
+                <a>
+                <i class="dollar sign  icon"></i>
+                    錢： {props.money} 
                 </a>
             </div>
         </div>
