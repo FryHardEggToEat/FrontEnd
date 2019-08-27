@@ -33,7 +33,8 @@ class SugarDaddy extends Component {
                             </div>
                             </div>                        
                     </div>
-
+                    <Divider icon="dollar icon" description="目前總贊助" />
+                    <h2>TW＄：10000 元</h2>
                     <Divider icon="gem outline icon" description="最新贊助" />
                 
                     <div class="ui one cards">
