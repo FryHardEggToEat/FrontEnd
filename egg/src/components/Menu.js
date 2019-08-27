@@ -15,6 +15,7 @@ const Menu = props => {
                 <Link class="item" to='/'>首頁</Link>
                 <Link class="item" to='/sugardaddy'>贊助者</Link>
                 <Link class="item" to='/sugarbaby'>街頭藝人</Link>
+                <Link class="item" to='/timetable'>時刻表</Link>
             </div>
         </div>
     )
