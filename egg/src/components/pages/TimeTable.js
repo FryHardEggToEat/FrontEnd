@@ -132,7 +132,7 @@ class TimeTable extends Component {
                     <button class="ui button">Search</button>
                 </div>
                 
-                <Divider icon="magic icon" description="新增表演" />
+                <Divider icon="rocket icon" description="新增表演" />
                 <div class="ui form">
                     <div class="four fields">
                         <div class="field">
@@ -145,11 +145,11 @@ class TimeTable extends Component {
                         </div>
                         <div class="field">
                             <label>Start Time</label>
-                            <input type="text" placeholder="Start Time(Ex:15:00)" onChange={this.onStartTimeChange} value={this.state.details.startTime}/>
+                            <input type="text" placeholder="Start Time(Ex:2019-8-28 10:00:00)" onChange={this.onStartTimeChange} value={this.state.details.startTime}/>
                         </div>
                         <div class="field">
                             <label>End Time</label>
-                            <input type="text" placeholder="End Time(Ex:16:30)" onChange={this.onEndTimeChange} value={this.state.details.endTime}/>
+                            <input type="text" placeholder="End Time(Ex:2019-8-28 10:30:00)" onChange={this.onEndTimeChange} value={this.state.details.endTime}/>
                         </div>
                     </div>
                 </div>
